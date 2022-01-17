@@ -7,7 +7,6 @@ import java.time.Instant;
 public class Lecture046TransferTo {
 
     public static void main(String[] args) throws IOException {
-
         var reader = new BufferedReader(new FileReader("characterstreams/frankenstein.txt"));
         var writer = new BufferedWriter(new FileWriter("characterstreams/frankenstein_copy.txt"));
 
