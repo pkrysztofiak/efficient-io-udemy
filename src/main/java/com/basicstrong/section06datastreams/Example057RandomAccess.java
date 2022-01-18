@@ -30,7 +30,6 @@ public class Example057RandomAccess {
 
         var in = new DataInputStream(new FileInputStream(file));
 
-
         try {
 //            while (true) {
 //                System.out.println(in.readInt());
