@@ -26,4 +26,9 @@ public class SimpleBench {
     public String[] benchTwo() {
         return pattern.split(input, 2);
     }
+
+    public void aaa() {
+        System.out.println();
+    }
+
 }
