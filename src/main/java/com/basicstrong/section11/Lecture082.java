@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.zip.GZIPOutputStream;
 
-public class Lecture82 {
+public class Lecture082 {
 
     private static String file = "D:/12E51121.bin";
     private static String fileGz = "D:/12E51121.gz";

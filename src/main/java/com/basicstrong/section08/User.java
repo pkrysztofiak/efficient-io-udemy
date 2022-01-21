@@ -1,6 +1,7 @@
 package com.basicstrong.section08;
 
 import com.github.javafaker.Faker;
+import org.openjdk.jmh.annotations.Benchmark;
 
 import java.io.*;
 
@@ -64,9 +65,5 @@ public class User implements Serializable {
         out2.writeObject(user2);
         var in2 = new ObjectInputStream(new FileInputStream(file2));
         System.out.println(in2.readObject());
-
-
-
-
     }
 }
