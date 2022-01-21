@@ -22,7 +22,6 @@ public class Lecture82 {
             while((length =in.read(buffer)) != -1) {
                 out.write(buffer, 0, length);
             }
-
             in.close();
             out.close();
         } catch (IOException e) {
